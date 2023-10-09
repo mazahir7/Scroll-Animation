@@ -58,6 +58,25 @@ h1 {
 
 }
 
+@media(max-width: 28em) {
+
+  .alphabets {
+
+    width: 300px;
+    height: 140px;
+
+    margin: 40px auto 40px;
+
+    transform: translateX(200%);
+  }
+
+  .alphabets:nth-of-type(even) {
+    transform: translateX(-200%);
+
+  }
+
+}
+
 .alphabets.active {
   transform: translateX(0);
 }
